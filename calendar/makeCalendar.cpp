@@ -59,10 +59,10 @@ void printDash(void)
 	cout << "\t";
 	fprintf(f, "\t");
 }
-
+/*
 void printMonthName(FILE *f, int mm)
 {
-	/* it prints the month name wrt to the month number */
+	// it prints the month name wrt to the month number
 	switch (mm)
 	{
 	case Jan:
@@ -103,7 +103,7 @@ void printMonthName(FILE *f, int mm)
 		break;
 	}
 }
-
+*/
 void CustomCalendar(int year)
 {
 	fprintf(f, "CALENDAR YEAR %d\n", year);

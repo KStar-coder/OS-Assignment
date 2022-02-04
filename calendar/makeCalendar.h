@@ -20,17 +20,7 @@ enum monthNames
     Nov,
     Dec
 };
-/*
-Index     Day
-0         Sunday
-1         Monday
-2         Tuesday
-3         Wednesday
-4         Thursday
-5         Friday
-6         Saturday * /
-/**
- * @def month in class Calendar
+/** 
  * month is within the range of [1..12]
  * @def day in class Calendar
  * days is within the range of [1..31]
